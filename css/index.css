@@ -1,0 +1,74 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.shijian{
+	width: 180px;
+	height: 50px;
+	border: 1px solid black;
+	position: absolute;
+	top: 30px;
+	left: 43.68%; 
+}
+#fen{
+	font-size: 40px;
+	width: 100px;
+	height: 50px;
+	margin-left: 20px;
+	line-height: 50px;
+	float: left;
+}
+#miao{
+	font-size: 40px;
+	width: 60px;
+	height: 50px;
+	line-height: 50px;
+	float: left;
+}
+#kuang{
+	width: 1470px;
+	height: 500px;
+	margin: 100px auto;
+	background: #fff4ff;
+	border:1px solid black;
+}
+.duo{
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+	color:white;
+	text-align: center;
+	line-height: 100px;
+	font-size: 64px;
+	background: black;
+	border:1px solid #ffff78;
+	margin-left: 10px ;
+	margin-top: 18px ;
+	float: left;
+}
+#zhezhao{
+	display: none;
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: 0.8;
+	color: white;
+	font-size: 3em;
+	line-height: 700px;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+button{
+	width: 200px;
+	height: 100px;
+	border-radius: 20px;
+	position: absolute;
+	top:70%;
+	left: 50%;
+	z-index: 20;
+	margin-left: -100px; 
+	font-size: 20px;
+	cursor: pointer;
+}
